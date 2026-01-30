@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-01-30T08:04:01.480Z",
+  "backend": {
+    "health": {
+      "error": "request to http://localhost:3001/api/health failed, reason: ",
+      "pass": false
+    }
+  },
+  "frontend": {},
+  "clawdbot": {
+    "stats": {
+      "error": "request to http://localhost:3001/api/clawdbot/stats failed, reason: ",
+      "pass": false
+    },
+    "localBridge": {
+      "initialized": true,
+      "sessionCount": 5,
+      "stats": {
+        "totalSessions": 5,
+        "activeSessions": 2,
+        "totalTokensIn": 2156,
+        "totalTokensOut": 3595,
+        "totalTokens": 5751,
+        "totalCost": 0.000004,
+        "models": [
+          "claude-haiku-4.5"
+        ],
+        "channels": [
+          "telegram"
+        ],
+        "avgTokensPerSession": 1150,
+        "lastUpdate": 1769760241527
+      },
+      "pass": true
+    }
+  },
+  "websocket": {
+    "connection": {
+      "error": "",
+      "pass": false
+    }
+  },
+  "overall": "⚠️  PARTIAL",
+  "summary": {
+    "passed": 1,
+    "total": 4,
+    "percentage": 25
+  }
+}
